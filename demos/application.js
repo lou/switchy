@@ -24,6 +24,6 @@ $(function() {
 
     // Display action in console
     var log =  'Selected value is "'+$(this).val()+'"';
-    $('#console').html(log);
+    $('#console').html(log).hide().fadeIn();
   });
 });
