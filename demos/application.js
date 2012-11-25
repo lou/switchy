@@ -14,7 +14,7 @@ $(function() {
     } else if ($(this).val() == 'male'){
       bgColor = '#7fcbea';
     }
-    $('.switch-bar').animate({
+    $('.switchy-bar').animate({
       backgroundColor: bgColor
     });
   });
