@@ -9,9 +9,9 @@
   var Switchy = function (element, options) {
     this.options = options;
     this.$element = $(element);
-    this.$container = $("<div class='switch-container'></div>");
-    this.$bar = $("<div class='switch-bar'></div>");
-    this.$slider = $("<div class='switch-slider' draggable='true'></div>");
+    this.$container = $("<div class='switchy-container'></div>");
+    this.$bar = $("<div class='switchy-bar'></div>");
+    this.$slider = $("<div class='switchy-slider' draggable='true'></div>");
     this.$options = $(element).children('option');
     this.numberOfOptions = this.$options.length;
     this.initialOptionIndex = this.$options.filter('[value="'+$(element).val()+'"]').index(); 
