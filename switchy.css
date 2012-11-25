@@ -1,5 +1,6 @@
 .switchy-container{
   position: relative;
+  margin: 0 auto;
   width: 70px;
   height: 20px;
   background: #fff;
