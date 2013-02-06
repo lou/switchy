@@ -4,22 +4,16 @@ body{
   background: #f6f6f6;
 }
 
-table{
-  width: 170px;
-  margin: 200px auto;
+.female{
+  text-align: right;
 }
 
-table tr td img{
-  cursor: pointer;
-}
-
-table tr td{
-  text-align: center;
+.container{
+  margin-top: 10%;
 }
 
 #console{
   padding: 40px 0px;
-  font-size: 0.8em;
   text-align: center;
   color: #aaa;
   text-shadow: 1px 2px #fff;

@@ -2,10 +2,32 @@
 <html>
   <head>
     <link href="switchy.css" rel="stylesheet" />
+    <link href="demos/bootstrap.min.css" rel="stylesheet" />
     <link href="demos/application.css" rel="stylesheet" />
   </head>
   <body>
-    <table>
+    <div class="container">
+      <div class="row">
+        <div class="span1 offset4 female">
+          <img src='demos/female.png' class='gender' gender='female' />
+        </div>
+        <div class="span2">
+          <select id='switch-me'>
+            <option value='female'>female</option>
+            <option value='' selected="selected"></option>
+            <option value='male'>male</option>
+          </select>
+        </div>
+        <div class="span1">
+          <img src='demos/male.png' class='gender' gender='male' />
+        </div>
+      </div>
+      <div class='row'>
+        <div class='span12' id="console">
+        </div>
+      </div>
+    </div>
+<!--     <table>
       <tr>
         <td width='10%'>
           <img src='demos/female.png' class='gender' gender='female' />
@@ -25,7 +47,7 @@
         <td colspan="3" id="console">
         <td>
       </tr>
-    </table>
+    </table> -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript" src="demos/jquery.animate-color.js"></script>
     <script type="text/javascript" src="demos/jquery.event.drag.js"></script>

@@ -3,8 +3,7 @@ $(function() {
   $('#switch-me').switchy();
 
   $('.gender').on('click', function(){
-    $('#switch-me').val($(this).attr('gender'));
-    $('#switch-me').trigger('change');
+    $('#switch-me').val($(this).attr('gender')).change();
   });
 
   $('#switch-me').on('change', function(){
